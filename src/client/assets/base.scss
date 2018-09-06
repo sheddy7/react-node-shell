@@ -1,0 +1,27 @@
+
+$component-gap: 20px;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #122343;
+  color: #fff;
+  padding: $component-gap;
+  font-size: 24px;
+}
+
+.App-body {
+  width: 100%;
+  margin: $component-gap auto;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-control {
+  margin: $component-gap;
+}
+
